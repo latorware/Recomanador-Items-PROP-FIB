@@ -1,0 +1,11 @@
+L'explicació detallada i completa sobre cada driver es troba a la 
+carpeta src/domini/Drivers (on es troben tots els arxius codi dels drivers)
+
+Els dos drivers que proven tant els algorismes amb dades reals (de fitxers de dades)
+com les distàncies, i per tant proven el funcionament conjunt de diverses classes, 
+son: 	
+	- DrvAvaluacioRecomanacioCOLFiltering.java
+	- DrvAvaluacioRecomanacioCBF.java
+
+
+Els executables de tots els drivers, però, es troben a la carpeta EXE

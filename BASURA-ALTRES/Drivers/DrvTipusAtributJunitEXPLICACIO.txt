@@ -1,0 +1,51 @@
+Objecte de prova: Classe TipusAtribut
+
+Elements integrats a la prova: mockitos de la classe Atribut (AtrString, AtrInt, AtrDouble, AtrBool, AtrString) 
+
+Drivers: Aquest és un driver creat amb Junit, i per tant s'han fet una sèrie de tests, 
+		que comproven el bon funcionament de la classe. Aquests tests 'shan fet 
+		amb el proposit de provar el funcionament de totes les funcions públiques
+		de la classe, i per tant també implícitament les privades (si es que en té), 
+		intentant trobar aquells casos conflictius que ens puguin fer trobar algun error. 
+
+Mockitos: Atribut (AtrString, AtrInt, AtrDouble, AtrBool, AtrString) 
+
+Fitxers de dades necessaris: Només es necessari l'executable jar. (A LA CARPETA EXE)
+
+Valors estudiats: A cada test, durant la seva execució s'imprimeix per pantalla el que realitzarà / comprovarà aquest. 
+		De totes formes, els valors estudiats son: 
+
+		- EXECUCIO TEST1 :  comprovar el funcionament de la constructora de la classe
+			Escollirem que el nom del Tipus d'atribut és: 'Budget'  ;  i el tipus de dada és de: 'Int'
+
+		- EXECUCIO TEST2 :  mateix que TEST1, però executant a més les funcions 'getNom', i 'getTipusDada' 
+			
+		- EXECUCIO TEST3 :  ara crearem una instància de la classe amb el mateix nom i tipus, com al TEST 1 i TEST2, però el que farem sera
+			executar la funció 'setCalculable' amb true, i 'getCalculable' per comprovar el funcionament d'aquestes dos funcions
+
+		- EXECUCIO TEST4 :  ara crearem una instancia de la classe, i anirem afegint atributs al TipusAtribut amb la funció 'afegirAtribut', fins a tenir 5 atributs, i executarem la funció 'getAtributs', per comprovar el funcionament d'aquestes dos funcions
+			El tipus de dada de Tipus atribut serà: String. Per tant, farem veure que estem afegint atributs de tipus String, AtrString
+
+		- EXECUCIO TEST5 :  mateix que TEST4, pero ara anirem eliminant finalment els atributs un per un amb funció 'eliminaAtribut', per comprovar el bon funcionament
+
+		- EXECUCIO TEST6 :  mateix que TEST5, pero ara el Tipus Atribut sera de tipus Double. 
+			Cada un dels atributs tindrà un valor de 1 a 5 respectivament (atribut 1 tindrà valor 1, atribut 5 tindrà valor 5)
+			Cada cop que eliminem o afegim un atribut, executarem les funcions 'getMaxValor' i 'getMinValor' per comprovar el correcte funcionament
+
+		- EXECUCIO TEST7 :  mateix que TEST6, pero amb l'ordre d'afegir i eliminar atributs invers
+
+		- EXECUCIO TEST8 :  mateix que TEST6, pero el tipus d'atribut ara sera Int, i per tant els atributs també
+
+		- EXECUCIO TEST9 :  mateix que TEST7, pero pero el tipus d'atribut ara sera Int, i per tant els atributs també
+
+
+
+Efectes estudiats:        -
+
+
+Operativa: 
+	- S'executa el jar. 
+	- Els testos s'executaràn un rere l'altre. 
+	- Durant l'execució de cada test en tot moment s'informarà per pantalla del que s'està fent. 
+	- Si es produeix algun error (excepció implícita o ja sigui creada per nosaltres) s'informarà per pantalla. 
+	- Un cop acabin tots els tests, s'informarà per pantalla això mateix. 

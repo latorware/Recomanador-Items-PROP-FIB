@@ -1,0 +1,7 @@
+./lib
+
+Llibreries necessaries: 
+
+	- junit-4.12
+	- mockito-core.2.18.3
+	- byte-buddy, hamcrest, objenesis son les dependències de junit/mockito

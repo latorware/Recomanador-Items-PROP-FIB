@@ -1,0 +1,23 @@
+DrvAvaluacioRecomanacioCOLFiltering és un driver diferent a la resta, ja que aquest no prova el
+funcionament d'una classe de forma individual, sinó que l'objectiu d'aquest és avaluar la
+qualitat de l'algorisme Collaborative filtering (comparant-la amb els resultats del fitxer test.unknown). 
+Per tant, per tal que aquesta avaluació sigui possible, les classes del programa han de treballar conjuntament,
+de forma que quan llegim les dades, primer haurem de crear instàncies de  Items, Usuaris,Valoracions, atributs.  
+
+Un cop fet això, calcularem la distància entre items amb DistUsuari, i finalment executarem l'algorisme Collaborative Filtering (classes COLFiltering, SlopeOne, kMeans), 
+comparant els resultats d'aquest amb el test.unknown amb la fi d'avaluar-lo. 
+
+
+
+Fitxers de dades necessaris: És necessari l'executable jar. (A LA CARPETA EXE). 
+			També es farà servir un arxiu de dades csv per carregar les dades, pero aquests s'agafaran
+			directament del directori on ja estan (src/data). En cas que no es canvii el codi, es fa servir la base
+			de dades default (movies.sample/250)
+
+
+Operativa: 	
+	- S'executa el jar. 
+	- El programa automàticament carregarà les dades de l'arxiu. 
+	- Llavors automaticament es crearan les distancies i s'executarà l'algorisme recomanador. 
+	- Finalment s'imprimirà per pantalla el valor DCG, IDCG i NDCG calculats de comparar els resultats
+		del nostre algorisme amb els resultats del fitxer test.unknown.csv	

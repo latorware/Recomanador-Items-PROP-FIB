@@ -1,0 +1,10 @@
+Directori Arrel:
+
+ /DOC: Conte la documentacio de la tercera entrega
+ /FONTS: Conté el codi font del projecte
+ /EXE: Directori on es guardarà el executable "jar" del programa. 
+ /compilarLINUX.sh: arxiu que serveix per crear l'executable del programa en màquines LINUX. El procediment s'explica a l'arxiu INSTRUCCIONS COMPILAR.txt
+ /compilarWINDOWS.bat: arxiu que serveix per crear l'executable del programa en màquines windows. El procediment s'explica a l'arxiu INSTRUCCIONS COMPILAR.txt
+ /MEMBRES.txt: membres de l'equip
+ /INSTRUCCIONS COMPILAR.txt: instruccions compilacio
+ /jocsProva

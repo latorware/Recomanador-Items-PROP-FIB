@@ -1,0 +1,2 @@
+Capa de presentació del projecte: Vistes de la aplicació, panells i el controlador de presentació. 
+També conté una carpeta amb icons que s'utilitzen per l'aplicació. 

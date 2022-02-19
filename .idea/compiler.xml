@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/controladors/CtrlDomini.java" />
+      <file url="file://$PROJECT_DIR$/src/controladors/CtrlCarregaDades.java" />
+      <file url="file://$PROJECT_DIR$/src/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/persistencia/DataReader.java" />
+      <file url="file://$PROJECT_DIR$/src/domini/Drivers/DrvAvaluacioRecomanacioCBF.java" />
+    </excludeFromCompile>
+  </component>
+</project>

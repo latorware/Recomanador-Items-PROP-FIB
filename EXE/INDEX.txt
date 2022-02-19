@@ -1,0 +1,3 @@
+./EXE
+
+Aqui aniran tots els executables, quan s'hagin compilat. 

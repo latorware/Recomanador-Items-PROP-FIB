@@ -1,0 +1,14 @@
+id
+title
+nom,tipusDada,calculable
+episodes,Int,true
+genres,String,true
+img_url,String,false
+link,String,false
+members,Int,true
+popularity,Int,true
+ranked,Double,true
+release_date,String,false
+score,Double,true
+synopsis,String,false
+title,String,false

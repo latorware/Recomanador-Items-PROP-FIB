@@ -1,0 +1,41 @@
+Objecte de prova: Classe Usuari, junt amb la subclasse d'aquesta, anomenada UActiu
+
+Elements integrats a la prova: mockito de la clase Item, i també de la classe Valoració. 
+
+Drivers: Un cop s'executi el driver, aquest informarà de totes les possibles opcions que es poden
+		comprovar de la classe. Aquestes opcions són: 
+			- test Constructor Usuari (usuari no actiu)
+			- test Constructor U Actiu
+			- test is actiu
+			- ELIMINA INSTANCIA usuari
+			- test get id
+			- test getItems valoracions
+			- test add item valoracio (sempre sintentara afegir una valoracio pertaneixent a un mateix item)
+			- test get nom
+			- test get contrasenya
+			- test canvia password
+
+
+Mockitos: Item, Valoració
+
+Fitxers de dades necessaris: Amb el propi executable ja es poden provar les opcions al ordre i gust que es vulgui.
+				No obstant, al fitxer DrvUsuariTEST.txt hi ha el joc de proves que hem utilitzat per
+				provar la classe.   (A LA CARPETA EXE)
+
+Valors estudiats:
+	Funcionament, i comportament de: 
+		- La creació d'una instància de la classe Usuari, o UActiu, amb les seves corresponents constructores. 
+		- La funció que ens informa sobre si l'usuari és de tipus actiu (i per tant és de la subclasse UActiu) o no. 
+		- Les funcions que ens informen de l'íd de un usuari, el seu nom (en el cas de UActiu), i contrassenya (en el cas de UActiu). 
+		- Les funcions que afegeixen i consulten les valoracions de l'usuari. (a l'utilitzar mockitos, només hem considerat la
+			possibilitat que sempre s'afegeixi la mateixa valoració, i per tant sempre s'afegeixi una valoració d'un mateix ítem). 
+		- La funció que canvia la contrassenya de una instància de UActiu. 
+		- Les excepcions que fan saltar les funcions de la classe. 
+
+
+Efectes estudiats: -
+
+Operativa: S'obre un menú amb totes les opcions disponibles
+    - introduir la opció desitjada
+    - Si aquesta opció necessita altres parametres, aquests seran demanats. 
+    - En cas que salti una excepció de la propia classe, aquesta es fara saber, imprimint un missatge d'error

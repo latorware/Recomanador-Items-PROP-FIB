@@ -1,0 +1,11 @@
+
+
+
+
+- Hector Pueyo Casas : Controladors de persistència, i de domini
+
+- Agnès Felip i Díaz : Retocs classes de domini, i controladors de domini
+
+- Miquel Florensa : Retocs classes de domini, i controladors de domini
+
+- David Latorre : Classes i controladors de la capa de presentació

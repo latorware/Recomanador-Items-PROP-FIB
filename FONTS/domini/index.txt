@@ -1,0 +1,3 @@
+Capa de domini del projecte: (acabada). 
+
+	- Controladors: directori Dels controladors de domini del projecte. 

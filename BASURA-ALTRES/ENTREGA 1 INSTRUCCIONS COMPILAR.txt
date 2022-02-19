@@ -1,0 +1,24 @@
+Per executar el programa: 
+
+-  Des del directori on està aquest l'arxiu que ara estas llegint, executar en una terminal basada en linux: 
+	cp -r ./FONTS ./EXE
+	cd ./EXE
+	export CLASSPATH=".:./lib/byte-buddy-1.8.5.jar:./lib/byte-buddy-agent-1.8.5.jar:./lib/hamcrest-core-1.3.jar:./lib/junit-4.12.jar:./lib/mockito-core-2.18.3.jar:./lib/objenesis-2.6.jar"
+	javac -d ./ ./FONTS/domini/*.java
+	javac -d ./ ./FONTS/utils/*.java
+	javac -d ./ ./FONTS/persistencia/*.java -Xlint
+	javac -d ./ ./FONTS/domini/Drivers/*.java -Xlint
+	rm -r ./FONTS
+	cd ../
+	cp -r ./FONTS/data ./EXE
+	cd ./EXE	
+
+
+
+
+
+- En aquest moment ja s'hauran creat tots els executables
+
+- Per executar un dels drivers, executa la comanda: java domini.Drivers."nom del driver" a la mateixa terminal que ja tenies oberta (és a dir, des de la carpeta ./EXE)
+
+- Les instruccions de tots els drivers es troben a la carpeta de codi de drivers: ./FONTS/domini/Drivers

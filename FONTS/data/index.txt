@@ -1,0 +1,7 @@
+- fitxers de dades amb els quals carregarem la informació (items, usuaris, ratings, etc). 
+
+De moment: 
+
+	- movies.sample
+
+	- series.public

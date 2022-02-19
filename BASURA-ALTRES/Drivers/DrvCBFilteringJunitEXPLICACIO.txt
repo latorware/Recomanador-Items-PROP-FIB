@@ -1,0 +1,41 @@
+Objecte de prova: Subclasse CBFiltering, de la classe Algorisme
+
+Elements integrats a la prova: mockitos de la classe Item, Valoració, Usuari
+
+Drivers: Aquest és un driver creat amb Junit, i per tant s'han fet una sèrie de tests, 
+		que comproven el bon funcionament de la classe. Aquests tests 'shan fet 
+		amb el proposit de provar el funcionament de totes les funcions públiques
+		de la classe, i per tant també implícitament les privades (si es que en té), 
+		intentant trobar aquells casos conflictius que ens puguin fer trobar algun error. 
+
+Mockitos: Item, Valoracio, Usuari
+
+Fitxers de dades necessaris: Només es necessari l'executable jar. (A LA CARPETA EXE)
+
+Valors estudiats: A cada test, durant la seva execució s'imprimeix per pantalla el que realitzarà / comprovarà aquest. 
+		De totes formes, els valors estudiats son: 
+
+		- EXECUCIO TEST1 :  comprovar funcionament constructora amb un usuari i totes les distàncies
+
+		- EXECUCIO TEST2 :  mateix que test 2 pero executant tambe la funcio 'knn'
+			Hi ha 5 valoracions
+
+		- EXECUCIO TEST3 :  mateix que test 2 pero executant tambe la funcio 'knn'
+			Hi ha 5 valoracions, totes tenen la mateixa valoració donada per l'usuari, k=5
+
+		- EXECUCIO TEST4 :  mateix que test 2 pero executant tambe la funcio 'knn'
+			Hi ha 5 valoracions, totes tenen la diferent valoració donada per l'usuari, k=3
+			Tots els items tenen la mateixa distancia
+
+		- EXECUCIO TEST5 :  mateix que test 2 pero executant tambe la funcio 'knn'
+			Hi ha 5 valoracions, els tres primers ítems tenen valoració inferior a 3, k=3
+			Tots els items tenen la mateixa distancia menys els items recomanats per les valoracions 4 i 5
+			Les valoracions de 4 que no són excloses (>=10)tenen distancia 0, les valoracions de 5 que no són excloses (>=10) tenen distancia 9
+
+
+Operativa: 
+	- S'executa el jar. 
+	- Els testos s'executaràn un rere l'altre. 
+	- Durant l'execució de cada test en tot moment s'informarà per pantalla del que s'està fent. 
+	- Si es produeix algun error (excepció implícita o ja sigui creada per nosaltres) s'informarà per pantalla. 
+	- Un cop acabin tots els tests, s'informarà per pantalla això mateix. 

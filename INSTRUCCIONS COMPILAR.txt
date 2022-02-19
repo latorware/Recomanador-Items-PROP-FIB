@@ -1,0 +1,30 @@
+SI UTILITZES LINUX
+
+Per executar el programa: 
+
+-  Des del directori on està aquest l'arxiu que ara estas llegint, executar en una terminal basada en linux: 
+	./compilar.sh
+		
+
+- En aquest moment ja s'hauran creat l'executable amb extensio .jar al directori EXE. 
+
+- Per tant, per executar el programa, t'hauras de situar amb la terminal de LINUX al directori EXE, i executar la comanda: 
+	java -jar run.jar
+
+
+
+
+
+SI UTILITZES WINDOWS
+
+Per executar el programa: (ATENCIO: windows a de tenir al environment path el path de java (aixi com JRE) d'una versio de java superior o igual a 11)
+
+-  Des del directori on està aquest l'arxiu que ara estas llegint, executar en una terminal POWERSHELL: 
+	.\compilarWINDOWS.bat
+
+
+- En aquest moment ja s'hauran creat l'executable amb extensio .jar al directori EXE. 
+
+
+- Per tant, per executar el programa, t'hauras de situar amb la terminal de WINDOWS al directori EXE, i executar la comanda: 
+	java -jar run.jar

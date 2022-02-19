@@ -1,0 +1,32 @@
+Objecte de prova: Classe kMeans
+
+Elements integrats a la prova: mockitos de la classe Usuari 
+
+Drivers: Aquest és un driver creat amb Junit, i per tant s'han fet una sèrie de tests, 
+		que comproven el bon funcionament de la classe. Aquests tests 'shan fet 
+		amb el proposit de provar el funcionament de totes les funcions públiques
+		de la classe, i per tant també implícitament les privades (si es que en té), 
+		intentant trobar aquells casos conflictius que ens puguin fer trobar algun error. 
+
+Mockitos: Usuari
+
+Fitxers de dades necessaris: Només es necessari l'executable jar. (A LA CARPETA EXE)
+
+Valors estudiats: A cada test, durant la seva execució s'imprimeix per pantalla el que realitzarà / comprovarà aquest. 
+		De totes formes, els valors estudiats son: 
+
+		- EXECUCIO TEST1 :  comprovar funcionament constructora amb unes distàncies 
+		
+		- EXECUCIO TEST2 :  execució de k-Means amb distàncies
+
+
+
+Efectes estudiats:        -
+
+
+Operativa: 
+	- S'executa el jar. 
+	- Els testos s'executaràn un rere l'altre. 
+	- Durant l'execució de cada test en tot moment s'informarà per pantalla del que s'està fent. 
+	- Si es produeix algun error (excepció implícita o ja sigui creada per nosaltres) s'informarà per pantalla. 
+	- Un cop acabin tots els tests, s'informarà per pantalla això mateix. 

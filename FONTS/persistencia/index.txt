@@ -1,0 +1,3 @@
+Capa de persistència del projecte: 
+
+Conté tots els controladors de persistència de la capa de persistència. 

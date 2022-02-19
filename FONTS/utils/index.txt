@@ -1,0 +1,5 @@
+Carpeta on guardem funcions i classes que són útils per la implementació d'altres fitxers. 
+
+	- Pair.java. 
+
+	- randoms.java  

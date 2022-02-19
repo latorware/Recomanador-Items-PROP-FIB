@@ -1,0 +1,25 @@
+2  500
+10
+11
+9
+6
+7
+8
+7
+5
+
+3  9999
+David
+Latorre
+10
+11
+Latorree
+Romero
+10
+11
+Latorre
+Romero
+10
+
+
+

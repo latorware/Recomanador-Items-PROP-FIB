@@ -1,0 +1,18 @@
+DIRECTORI FONTS:
+
+ Conte subdirectoris que representen les capes del projecte 
+ 
+
+- Data. 
+
+- Domini. 
+
+- Persistencia. 
+
+- Presentacio. 
+
+- utils. 
+
+- Main.java 
+
+
